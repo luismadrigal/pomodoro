@@ -819,7 +819,7 @@
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PREBINDING = NO;
-				SDKROOT = "";
+				SDKROOT = macosx10.7;
 			};
 			name = Release_10.6_10.5_32_64_GC_embed;
 		};
@@ -906,7 +906,7 @@
 					0xb0440100,
 				);
 				PRODUCT_NAME = BGHUDAppKit;
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx10.7;
 				SKIP_INSTALL = NO;
 			};
 			name = Debug;
@@ -932,7 +932,7 @@
 					0xb0000000,
 				);
 				PRODUCT_NAME = BGHUDAppKit;
-				SDKROOT = macosx10.8;
+				SDKROOT = macosx10.7;
 				SEPARATE_STRIP = YES;
 				SKIP_INSTALL = NO;
 				STRIP_INSTALLED_PRODUCT = YES;
@@ -989,7 +989,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PREBINDING = NO;
-				SDKROOT = "";
+				SDKROOT = macosx10.7;
 			};
 			name = Debug;
 		};
@@ -1006,7 +1006,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				PREBINDING = NO;
-				SDKROOT = "";
+				SDKROOT = macosx10.7;
 			};
 			name = Release;
 		};

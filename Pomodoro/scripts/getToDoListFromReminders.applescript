@@ -4,7 +4,7 @@ tell application "Reminders"
 set todoList to {}
 
 repeat with aReminder in (reminders whose completed is false)
-    if container of aReminder is equal to default list then
+    if container of aReminder is equal to (default, list ) then
         set prefix to ""
         else
         set prefix to "[" & name of container of aReminder & "] "
